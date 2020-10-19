@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>IDOTEK</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style type="text/css">
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body dir="rtl" class="w3-light-grey" >
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+        <a class="navbar-brand" href="#">IDOTEK</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">الصفحة الرئيسية</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">لغات برمجة <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRzZ4uXtv3go1_CET-dvWBikUcSEE0xyCVYmA&usqp=CAU" alt="Image" class="w3-left w3-margin-right" style="width:50px"><span class="w3-large"> لغة </span>
+                </a>
+            </li>
+            <li><a href="#"><img src="https://img.favpng.com/14/23/17/python-logo-png-favpng-zh3hwdBFc2eeM3WMWECcjqDK1.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+                <span class="w3-large"> لغة بايثون</span></a></li>
+            <li><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+                <span class="w3-large">  لغة الجافا <br> سكريب</span></a></li>
+          </ul>
+        </li>
+        <li><a href="#">مجالات البرمجة</a></li>
+        <li><a href="#">مواقع لتعلم البرمجة</a></li>
+        <li><a href="#">مقالات</a></li>
+        </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://127.0.0.1:59958/web/index7.html"><span class="glyphicon glyphicon-user"></span>سجل</a></li>
+        <li><a href="http://127.0.0.1:59958/web/index6.html"><span class="glyphicon glyphicon-log-in"></span>تسجيل الدخول</a></li>
+      </ul>
+         
+    </div>
+  </div>
+</nav>
+    
+    
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>موقعي</b></h1>
+  <p>مرحبا بكم في موقعي<span class="w3-tag">IDOTEK</span></p>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="https://miro.medium.com/max/700/1*CWM5omSsQVUpMREJwHQUzQ.jpeg" alt="Nature" style="width:100%">
+    <div class="w3-container">
+      <h3><b>الخورزميات</b></h3>
+      <h5>وصف العنوان، <span class="w3-opacity">2020 19, سبتمبر</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <pre>
+      
+ الخوارزمية  :
+يعبّر مفهوم الخوارزميّة عن طريق عمل  أو صيغة لحل المشكلات، حيث تعتمد على تنفيذ متسلسلة من الإجراءات المحددة             
+وتعبّر الخوارزمية في الرياضيّات وعلوم الحاسوب عن طريقة عمل صغيرة لحل المشاكل المتكررة 
+ويمكن طرح جهاز الحاسوب كمثالاً دقيقاً على مفهوم الخوارزمية.  
+ 
+       </pre>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><a href="http://127.0.0.1:59958/index3.html"><b>قراءة المزيد »</b></a></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>التعليقات  </b> <span class="w3-tag">6</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="http://elmohit.net/sites/default/files/635445455487878787.jpg" alt="Norway" style="width:100%">
+    <div class="w3-container">
+      <h3><b>الذكاء الاصطناعي</b></h3>
+      <h5>وصف العنوان،  <span class="w3-opacity">سبتمبر 19, 2020</span></h5>
+    </div>
+
+    <div class="w3-container">
+     <pre>
+الذكاء الاصطناعي : 
+سلوك وخصائص معينة تتسم بها البرامج الحاسوبية، تجعلها تحاكي القدرات الذهنية البشرية وأنماط عملها. 
+من أهم هذه الخاصيات القدرة على التعلم والاستنتاج ورد الفعل على أوضاع لم تبرمج في الآلة. 
+إلا أنَّ هذا المصطلح جدلي نظراً لعدم توفر تعريف محدد للذكاء.
+ </pre>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>قراءة المزيد »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>التعليقات  </b> <span class="w3-badge">4</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="myimage.jpg"  alt="I apologize for not showing the picture" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4><b>أحمد رائد</b></h4>
+    <pre>نبذة قصيرة عني .
+طالب في المرحلة الثانوية 
+اهتم بكل شيء يتعلق في مجال التكنولوجيا وخاصة الهواتف ، 
+تعلمت لغة HTML و CSS مع إطار العمل bootstrap  
+حتى تمكنت من تصميم أول موقع لي .</pre>
+    </div>
+  </div><hr>
+  
+  <!-- Posts -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>لغات برمجة أخرى</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <img src="https://w7.pngwing.com/pngs/811/186/png-transparent-java-programming-programming-language-computer-programming-others-miscellaneous-text-logo.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">لغة Java</span><br>
+        <span>تستخدم في برمجة تطبيقات الاندرويد</span>
+      </li>
+      <li class="w3-padding-16">
+        <img src="https://a7.pnghunt.com/preview/340/226/414/c-computer-programming-software-development-programmer-marklogic-coder.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">لغة C#</span><br>
+        <span>تستخدم في برمجة تطبيقات سطح المكتب</span>
+      </li> 
+      <li class="w3-padding-16">
+        <img src="https://e7.pngegg.com/pngimages/234/449/png-clipart-web-development-php-scripting-language-programming-language-logo-ruby-blue-text.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">لغة php</span><br>
+        <span>تستخدم في برمجة تطبيقات الويب</span>
+      </li>   
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="http://www.multimega-eg.com/admin-assets/images/blogs/2uSIlD_swift-og.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">لغة swift</span><br>
+        <span>تستخدم في برمجة تطبيقات الأيفون</span>
+      </li>  
+    </ul>
+  </div>
+  <hr> 
+ 
+  <!-- Labels / tags -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>مصطلحات برمجية</h4>
+    </div>
+    <div class="w3-container w3-white">
+    <p><span class="w3-tag w3-black w3-margin-bottom">input</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">output</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">math</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">decision</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">repetition</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">problem solving</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">program</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">programming</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">computer science</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">algorithem</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">bug</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">debugging</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">high-level language</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">low-level language</span>
+    </p>
+    </div>
+  </div>
+  
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+<p class="footer-copyrights" style="text-align: center;"> 2020 جميع الحقوق محفوظة.&copy; لموقع IDOTEK </p>
+</footer>
+
+</body>
+</html>
